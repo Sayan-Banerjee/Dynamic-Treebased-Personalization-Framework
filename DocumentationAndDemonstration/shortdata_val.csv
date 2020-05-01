@@ -1,0 +1,20 @@
+TripOrigCntry,TripDestCntry,Cabin,SatNightStay,AP,LOS,TripType,outb_DeptTimeWindow,outb_DeptDOW,outb_NumStops,outb_ConxTimeWindow,inb_DeptTimeWindow,inb_DeptDOW,inb_NumStops,inb_ConxTimeWindow,NbrInParty,NumChildren
+AE,PH,8_economy,y,9,59,rt,08:00 - 10:59 Morning,2,0,Non-Stop,18:00 - 20:59 Evening,5,0,Non-Stop,1,0
+AE,PH,8_economy,y,14,53,rt,08:00 - 10:59 Morning,7,0,Non-Stop,18:00 - 20:59 Evening,4,0,Non-Stop,1,0
+AE,PH,8_economy,y,48,36,rt,05:00 - 07:59 Early Morning,6,1,short,05:00 - 07:59 Early Morning,7,1,short,1,0
+AE,PH,8_economy,n,23,0,ow,08:00 - 10:59 Morning,2,0,Non-Stop,NA_OneWay,NA_OneWay,NA_OneWay,NA_OneWay,2,1
+AE,PH,8_economy,y,19,59,rt,08:00 - 10:59 Morning,5,0,Non-Stop,00:00 - 04:59 Late Night,1,0,Non-Stop,1,0
+AE,PH,8_economy,y,3,15,rt,00:00 - 04:59 Late Night,3,0,Non-Stop,00:00 - 04:59 Late Night,4,0,Non-Stop,1,0
+AE,PH,8_economy,y,9,59,rt,08:00 - 10:59 Morning,2,0,Non-Stop,18:00 - 20:59 Evening,5,0,Non-Stop,1,0
+AE,PH,8_economy,y,3,13,rt,08:00 - 10:59 Morning,3,0,Non-Stop,00:00 - 04:59 Late Night,2,0,Non-Stop,1,0
+AE,PH,8_economy,y,23,10,rt,00:00 - 04:59 Late Night,2,0,Non-Stop,18:00 - 20:59 Evening,5,0,Non-Stop,1,0
+AE,PH,8_economy,n,39,0,ow,00:00 - 04:59 Late Night,4,0,Non-Stop,NA_OneWay,NA_OneWay,NA_OneWay,NA_OneWay,1,0
+AE,PH,8_economy,y,11,59,rt,08:00 - 10:59 Morning,4,0,Non-Stop,18:00 - 20:59 Evening,7,0,Non-Stop,1,0
+AE,PH,8_economy,n,27,0,ow,00:00 - 04:59 Late Night,6,0,Non-Stop,NA_OneWay,NA_OneWay,NA_OneWay,NA_OneWay,1,0
+AE,PH,8_economy,n,33,0,ow,08:00 - 10:59 Morning,5,0,Non-Stop,NA_OneWay,NA_OneWay,NA_OneWay,NA_OneWay,1,0
+AE,EG,8_economy,y,26,30,rt,00:00 - 04:59 Late Night,5,0,Non-Stop,21:00 - 23:59 Late Evening,7,0,Non-Stop,5,3
+AE,EG,8_economy,y,1,13,rt,08:00 - 10:59 Morning,1,0,Non-Stop,00:00 - 04:59 Late Night,7,0,Non-Stop,1,0
+AE,EG,8_economy,n,0,0,ow,21:00 - 23:59 Late Evening,7,0,Non-Stop,NA_OneWay,NA_OneWay,NA_OneWay,NA_OneWay,1,0
+AE,EG,8_economy,y,13,46,rt,05:00 - 07:59 Early Morning,6,0,Non-Stop,21:00 - 23:59 Late Evening,3,0,Non-Stop,1,0
+AE,EG,8_economy,n,71,0,ow,05:00 - 07:59 Early Morning,1,0,Non-Stop,NA_OneWay,NA_OneWay,NA_OneWay,NA_OneWay,1,0
+AE,EG,8_economy,n,70,0,ow,05:00 - 07:59 Early Morning,7,0,Non-Stop,NA_OneWay,NA_OneWay,NA_OneWay,NA_OneWay,1,0

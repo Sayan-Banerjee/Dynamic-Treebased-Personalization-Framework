@@ -1,0 +1,150 @@
+digraph g {
+	node [height=.1 shape=record]
+	node0 [label="<f0> |<f1> ID: 0 Inst: 100  People max: 10.0 min: 1.0
+ avgSpend max: 91.0 min: 21.0
+|<f2>"]
+	node1 [label="<f0> |<f1> ID: 1 Inst: 97  People max: 8.0 min: 1.0
+ avgSpend max: 91.0 min: 21.0
+|<f2>"]
+	node0:f0 -> node1:f1
+	node2 [label="<f0> |<f1> ID: 36 Inst: 3  People max: 10.0 min: 9.0
+ avgSpend max: 58.0 min: 24.0
+|<f2>"]
+	node0:f2 -> node2:f1
+	node3 [label="<f0> |<f1> ID: 2 Inst: 93  People max: 8.0 min: 1.0
+ avgSpend max: 78.0 min: 21.0
+|<f2>"]
+	node1:f0 -> node3:f1
+	node4 [label="<f0> |<f1> ID: 35 Inst: 4  People max: 8.0 min: 2.0
+ avgSpend max: 91.0 min: 82.0
+|<f2>"]
+	node1:f2 -> node4:f1
+	node5 [label="<f0> |<f1> ID: 3 Inst: 86  People max: 7.0 min: 1.0
+ avgSpend max: 78.0 min: 21.0
+|<f2>"]
+	node3:f0 -> node5:f1
+	node6 [label="<f0> |<f1> ID: 34 Inst: 7  People max: 8.0 min: 8.0
+ avgSpend max: 63.0 min: 40.0
+|<f2>"]
+	node3:f2 -> node6:f1
+	node7 [label="<f0> |<f1> ID: 4 Inst: 82  People max: 6.0 min: 1.0
+ avgSpend max: 78.0 min: 21.0
+|<f2>"]
+	node5:f0 -> node7:f1
+	node8 [label="<f0> |<f1> ID: 33 Inst: 4  People max: 7.0 min: 7.0
+ avgSpend max: 61.0 min: 26.0
+|<f2>"]
+	node5:f2 -> node8:f1
+	node9 [label="<f0> |<f1> ID: 5 Inst: 4  People max: 1.0 min: 1.0
+ avgSpend max: 52.0 min: 40.0
+|<f2>"]
+	node7:f0 -> node9:f1
+	node10 [label="<f0> |<f1> ID: 6 Inst: 78  People max: 6.0 min: 2.0
+ avgSpend max: 78.0 min: 21.0
+|<f2>"]
+	node7:f2 -> node10:f1
+	node11 [label="<f0> |<f1> ID: 7 Inst: 2  People max: 5.0 min: 4.0
+ avgSpend max: 23.0 min: 21.0
+|<f2>"]
+	node10:f0 -> node11:f1
+	node12 [label="<f0> |<f1> ID: 8 Inst: 76  People max: 6.0 min: 2.0
+ avgSpend max: 78.0 min: 27.0
+|<f2>"]
+	node10:f2 -> node12:f1
+	node13 [label="<f0> |<f1> ID: 9 Inst: 75  People max: 6.0 min: 2.0
+ avgSpend max: 74.0 min: 27.0
+|<f2>"]
+	node12:f0 -> node13:f1
+	node14 [label="<f0> |<f1> ID: 32 Inst: 1  People max: 6.0 min: 6.0
+ avgSpend max: 78.0 min: 78.0
+|<f2>"]
+	node12:f2 -> node14:f1
+	node15 [label="<f0> |<f1> ID: 10 Inst: 70  People max: 6.0 min: 2.0
+ avgSpend max: 69.0 min: 27.0
+|<f2>"]
+	node13:f0 -> node15:f1
+	node16 [label="<f0> |<f1> ID: 31 Inst: 5  People max: 6.0 min: 2.0
+ avgSpend max: 74.0 min: 71.0
+|<f2>"]
+	node13:f2 -> node16:f1
+	node17 [label="<f0> |<f1> ID: 11 Inst: 2  People max: 6.0 min: 5.0
+ avgSpend max: 28.0 min: 27.0
+|<f2>"]
+	node15:f0 -> node17:f1
+	node18 [label="<f0> |<f1> ID: 12 Inst: 68  People max: 6.0 min: 2.0
+ avgSpend max: 69.0 min: 30.0
+|<f2>"]
+	node15:f2 -> node18:f1
+	node19 [label="<f0> |<f1> ID: 13 Inst: 64  People max: 6.0 min: 2.0
+ avgSpend max: 65.0 min: 30.0
+|<f2>"]
+	node18:f0 -> node19:f1
+	node20 [label="<f0> |<f1> ID: 30 Inst: 4  People max: 6.0 min: 3.0
+ avgSpend max: 69.0 min: 66.0
+|<f2>"]
+	node18:f2 -> node20:f1
+	node21 [label="<f0> |<f1> ID: 14 Inst: 3  People max: 6.0 min: 3.0
+ avgSpend max: 33.0 min: 30.0
+|<f2>"]
+	node19:f0 -> node21:f1
+	node22 [label="<f0> |<f1> ID: 15 Inst: 61  People max: 6.0 min: 2.0
+ avgSpend max: 65.0 min: 34.0
+|<f2>"]
+	node19:f2 -> node22:f1
+	node23 [label="<f0> |<f1> ID: 16 Inst: 52  People max: 6.0 min: 2.0
+ avgSpend max: 57.0 min: 34.0
+|<f2>"]
+	node22:f0 -> node23:f1
+	node24 [label="<f0> |<f1> ID: 29 Inst: 9  People max: 6.0 min: 2.0
+ avgSpend max: 65.0 min: 58.0
+|<f2>"]
+	node22:f2 -> node24:f1
+	node25 [label="<f0> |<f1> ID: 17 Inst: 51  People max: 6.0 min: 2.0
+ avgSpend max: 56.0 min: 34.0
+|<f2>"]
+	node23:f0 -> node25:f1
+	node26 [label="<f0> |<f1> ID: 28 Inst: 1  People max: 2.0 min: 2.0
+ avgSpend max: 57.0 min: 57.0
+|<f2>"]
+	node23:f2 -> node26:f1
+	node27 [label="<f0> |<f1> ID: 18 Inst: 41  People max: 6.0 min: 2.0
+ avgSpend max: 52.0 min: 34.0
+|<f2>"]
+	node25:f0 -> node27:f1
+	node28 [label="<f0> |<f1> ID: 27 Inst: 10  People max: 6.0 min: 2.0
+ avgSpend max: 56.0 min: 54.0
+|<f2>"]
+	node25:f2 -> node28:f1
+	node29 [label="<f0> |<f1> ID: 19 Inst: 37  People max: 5.0 min: 2.0
+ avgSpend max: 52.0 min: 34.0
+|<f2>"]
+	node27:f0 -> node29:f1
+	node30 [label="<f0> |<f1> ID: 26 Inst: 4  People max: 6.0 min: 6.0
+ avgSpend max: 49.0 min: 42.0
+|<f2>"]
+	node27:f2 -> node30:f1
+	node31 [label="<f0> |<f1> ID: 20 Inst: 32  People max: 4.0 min: 2.0
+ avgSpend max: 52.0 min: 34.0
+|<f2>"]
+	node29:f0 -> node31:f1
+	node32 [label="<f0> |<f1> ID: 25 Inst: 5  People max: 5.0 min: 5.0
+ avgSpend max: 48.0 min: 37.0
+|<f2>"]
+	node29:f2 -> node32:f1
+	node33 [label="<f0> |<f1> ID: 21 Inst: 27  People max: 3.0 min: 2.0
+ avgSpend max: 52.0 min: 36.0
+|<f2>"]
+	node31:f0 -> node33:f1
+	node34 [label="<f0> |<f1> ID: 24 Inst: 5  People max: 4.0 min: 4.0
+ avgSpend max: 45.0 min: 34.0
+|<f2>"]
+	node31:f2 -> node34:f1
+	node35 [label="<f0> |<f1> ID: 22 Inst: 18  People max: 3.0 min: 2.0
+ avgSpend max: 46.0 min: 36.0
+|<f2>"]
+	node33:f0 -> node35:f1
+	node36 [label="<f0> |<f1> ID: 23 Inst: 9  People max: 3.0 min: 2.0
+ avgSpend max: 52.0 min: 48.0
+|<f2>"]
+	node33:f2 -> node36:f1
+}

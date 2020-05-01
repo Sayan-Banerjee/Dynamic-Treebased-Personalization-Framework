@@ -1,0 +1,24 @@
+digraph g {
+	node [height=.1 shape=record]
+	node0 [label="<f0> |<f1> ID: 0 Inst: 9 Attribute: LeadDays Cut Value: 14.0 |<f2>"]
+	node1 [label="<f0> |<f1> ID: 1 Inst: 7 Attribute: NumberOfPeople Cut Value: 2.0 |<f2>"]
+	node0:f0 -> node1:f1
+	node2 [label="<f0> |<f1> ID: 10 Inst: 2 ['LeadDays', 'NumberOfPeople', 'LanguageEnglish', 'LanguageSpanish']  Max :[ 3. 35.  2.  1.  0.]  Min :[ 2. 25.  1.  1.  0.] |<f2>"]
+	node0:f2 -> node2:f1
+	node3 [label="<f0> |<f1> ID: 2 Inst: 6 Attribute: LeadDays Cut Value: 7.0 |<f2>"]
+	node1:f0 -> node3:f1
+	node4 [label="<f0> |<f1> ID: 9 Inst: 1 ['LeadDays', 'NumberOfPeople', 'LanguageEnglish', 'LanguageSpanish']  Max :[ 7. 14.  3.  0.  1.]  Min :[ 7. 14.  3.  0.  1.] |<f2>"]
+	node1:f2 -> node4:f1
+	node5 [label="<f0> |<f1> ID: 3 Inst: 4 Attribute: LeadDays Cut Value: 5.0 |<f2>"]
+	node3:f0 -> node5:f1
+	node6 [label="<f0> |<f1> ID: 8 Inst: 2 ['LeadDays', 'NumberOfPeople', 'LanguageEnglish', 'LanguageSpanish']  Max :[ 1. 12.  2.  0.  1.]  Min :[ 0. 10.  1.  0.  1.] |<f2>"]
+	node3:f2 -> node6:f1
+	node7 [label="<f0> |<f1> ID: 4 Inst: 3 Attribute: LeadDays Cut Value: 3.0 |<f2>"]
+	node5:f0 -> node7:f1
+	node8 [label="<f0> |<f1> ID: 7 Inst: 1 ['LeadDays', 'NumberOfPeople', 'LanguageEnglish', 'LanguageSpanish']  Max :[5. 7. 2. 1. 0.]  Min :[5. 7. 2. 1. 0.] |<f2>"]
+	node5:f2 -> node8:f1
+	node9 [label="<f0> |<f1> ID: 5 Inst: 2 ['LeadDays', 'NumberOfPeople', 'LanguageEnglish', 'LanguageSpanish']  Max :[6. 3. 2. 1. 0.]  Min :[4. 1. 1. 1. 0.] |<f2>"]
+	node7:f0 -> node9:f1
+	node10 [label="<f0> |<f1> ID: 6 Inst: 1 ['LeadDays', 'NumberOfPeople', 'LanguageEnglish', 'LanguageSpanish']  Max :[8. 5. 1. 1. 0.]  Min :[8. 5. 1. 1. 0.] |<f2>"]
+	node7:f2 -> node10:f1
+}

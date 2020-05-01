@@ -1,0 +1,1837 @@
+digraph g {
+	node [height=.1 shape=record]
+	node0 [label="<f0> |<f1> A:channel-id, AT:Calculated, V:['3.0'], OC:2|<f2>"]
+	node1 [label="<f0> |<f1> A:lang-id, AT:C, 
+                             V:3.0, OC:3
+                             |<f2>"]
+	node0:f0 -> node1:f1
+	node2 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node0:f2 -> node2:f1
+	node3 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:12.0, OC:3
+                             |<f2>"]
+	node1:f0 -> node3:f1
+	node4 [label="<f0> |<f1> CID: cluster_default
+                           |<f2>"]
+	node1:f2 -> node4:f1
+	node5 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:157.0, OC:1
+                             |<f2>"]
+	node3:f0 -> node5:f1
+	node6 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node3:f2 -> node6:f1
+	node7 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:1.0, OC:3
+                             |<f2>"]
+	node5:f0 -> node7:f1
+	node8 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:1.0, OC:3
+                             |<f2>"]
+	node5:f2 -> node8:f1
+	node9 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:83.0, OC:1
+                             |<f2>"]
+	node7:f0 -> node9:f1
+	node10 [label="<f0> |<f1> CID: cluster_default
+                           |<f2>"]
+	node7:f2 -> node10:f1
+	node11 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:325.0, OC:1
+                             |<f2>"]
+	node8:f0 -> node11:f1
+	node12 [label="<f0> |<f1> CID: cluster_default
+                           |<f2>"]
+	node8:f2 -> node12:f1
+	node13 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:13.0, OC:3
+                             |<f2>"]
+	node9:f0 -> node13:f1
+	node14 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:13.0, OC:3
+                             |<f2>"]
+	node9:f2 -> node14:f1
+	node15 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:13.0, OC:3
+                             |<f2>"]
+	node11:f0 -> node15:f1
+	node16 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node11:f2 -> node16:f1
+	node17 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:47.0, OC:1
+                             |<f2>"]
+	node13:f0 -> node17:f1
+	node18 [label="<f0> |<f1> CID: cluster_6
+                           |<f2>"]
+	node13:f2 -> node18:f1
+	node19 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['sunday', 'monday', 'sun', 'mon'], OC:2
+                             |<f2>"]
+	node14:f0 -> node19:f1
+	node20 [label="<f0> |<f1> CID: cluster_6
+                           |<f2>"]
+	node14:f2 -> node20:f1
+	node21 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:209.0, OC:1
+                             |<f2>"]
+	node15:f0 -> node21:f1
+	node22 [label="<f0> |<f1> CID: cluster_6
+                           |<f2>"]
+	node15:f2 -> node22:f1
+	node23 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:24.0, OC:1
+                             |<f2>"]
+	node17:f0 -> node23:f1
+	node24 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:72.0, OC:1
+                             |<f2>"]
+	node17:f2 -> node24:f1
+	node25 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:123.0, OC:1
+                             |<f2>"]
+	node19:f0 -> node25:f1
+	node26 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:139.0, OC:1
+                             |<f2>"]
+	node19:f2 -> node26:f1
+	node27 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:196.0, OC:1
+                             |<f2>"]
+	node21:f0 -> node27:f1
+	node28 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node21:f2 -> node28:f1
+	node29 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:16.0, OC:1
+                             |<f2>"]
+	node23:f0 -> node29:f1
+	node30 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['sunday', 'monday', 'sun', 'mon'], OC:2
+                             |<f2>"]
+	node23:f2 -> node30:f1
+	node31 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:71.0, OC:1
+                             |<f2>"]
+	node24:f0 -> node31:f1
+	node32 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['friday', 'saturday', 'fri', 'sat'], OC:2
+                             |<f2>"]
+	node24:f2 -> node32:f1
+	node33 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:105.0, OC:1
+                             |<f2>"]
+	node25:f0 -> node33:f1
+	node34 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:154.0, OC:1
+                             |<f2>"]
+	node25:f2 -> node34:f1
+	node35 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node26:f0 -> node35:f1
+	node36 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node26:f2 -> node36:f1
+	node37 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:188.0, OC:1
+                             |<f2>"]
+	node27:f0 -> node37:f1
+	node38 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node27:f2 -> node38:f1
+	node39 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:12.0, OC:1
+                             |<f2>"]
+	node29:f0 -> node39:f1
+	node40 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['sunday', 'monday', 'sun', 'mon'], OC:2
+                             |<f2>"]
+	node29:f2 -> node40:f1
+	node41 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node30:f0 -> node41:f1
+	node42 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node30:f2 -> node42:f1
+	node43 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['sunday', 'monday', 'sun', 'mon'], OC:2
+                             |<f2>"]
+	node31:f0 -> node43:f1
+	node44 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node31:f2 -> node44:f1
+	node45 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node32:f0 -> node45:f1
+	node46 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node32:f2 -> node46:f1
+	node47 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:102.0, OC:1
+                             |<f2>"]
+	node33:f0 -> node47:f1
+	node48 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:106.0, OC:1
+                             |<f2>"]
+	node33:f2 -> node48:f1
+	node49 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:153.0, OC:1
+                             |<f2>"]
+	node34:f0 -> node49:f1
+	node50 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node34:f2 -> node50:f1
+	node51 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node35:f0 -> node51:f1
+	node52 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node35:f2 -> node52:f1
+	node53 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:159.0, OC:1
+                             |<f2>"]
+	node37:f0 -> node53:f1
+	node54 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node37:f2 -> node54:f1
+	node55 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node38:f0 -> node55:f1
+	node56 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node38:f2 -> node56:f1
+	node57 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['sunday', 'monday', 'sun', 'mon'], OC:2
+                             |<f2>"]
+	node39:f0 -> node57:f1
+	node58 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['friday', 'saturday', 'fri', 'sat'], OC:2
+                             |<f2>"]
+	node39:f2 -> node58:f1
+	node59 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node40:f0 -> node59:f1
+	node60 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:22.0, OC:1
+                             |<f2>"]
+	node40:f2 -> node60:f1
+	node61 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:45.0, OC:1
+                             |<f2>"]
+	node41:f0 -> node61:f1
+	node62 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:34.0, OC:1
+                             |<f2>"]
+	node41:f2 -> node62:f1
+	node63 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node42:f0 -> node63:f1
+	node64 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node42:f2 -> node64:f1
+	node65 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node43:f0 -> node65:f1
+	node66 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node43:f2 -> node66:f1
+	node67 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:77.0, OC:1
+                             |<f2>"]
+	node45:f0 -> node67:f1
+	node68 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:78.0, OC:1
+                             |<f2>"]
+	node45:f2 -> node68:f1
+	node69 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node46:f0 -> node69:f1
+	node70 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node46:f2 -> node70:f1
+	node71 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:101.0, OC:1
+                             |<f2>"]
+	node47:f0 -> node71:f1
+	node72 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node47:f2 -> node72:f1
+	node73 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node48:f0 -> node73:f1
+	node74 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:110.0, OC:1
+                             |<f2>"]
+	node48:f2 -> node74:f1
+	node75 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:152.0, OC:1
+                             |<f2>"]
+	node49:f0 -> node75:f1
+	node76 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node49:f2 -> node76:f1
+	node77 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node53:f0 -> node77:f1
+	node78 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:179.0, OC:1
+                             |<f2>"]
+	node53:f2 -> node78:f1
+	node79 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:8.0, OC:1
+                             |<f2>"]
+	node57:f0 -> node79:f1
+	node80 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:8.0, OC:1
+                             |<f2>"]
+	node57:f2 -> node80:f1
+	node81 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['sunday', 'monday', 'sun', 'mon'], OC:2
+                             |<f2>"]
+	node58:f0 -> node81:f1
+	node82 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:13.0, OC:1
+                             |<f2>"]
+	node58:f2 -> node82:f1
+	node83 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:19.0, OC:1
+                             |<f2>"]
+	node59:f0 -> node83:f1
+	node84 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:18.0, OC:1
+                             |<f2>"]
+	node59:f2 -> node84:f1
+	node85 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:21.0, OC:1
+                             |<f2>"]
+	node60:f0 -> node85:f1
+	node86 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node60:f2 -> node86:f1
+	node87 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:44.0, OC:1
+                             |<f2>"]
+	node61:f0 -> node87:f1
+	node88 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['friday', 'saturday', 'fri', 'sat'], OC:2
+                             |<f2>"]
+	node61:f2 -> node88:f1
+	node89 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:33.0, OC:1
+                             |<f2>"]
+	node62:f0 -> node89:f1
+	node90 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:45.0, OC:1
+                             |<f2>"]
+	node62:f2 -> node90:f1
+	node91 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:62.0, OC:1
+                             |<f2>"]
+	node65:f0 -> node91:f1
+	node92 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:68.0, OC:1
+                             |<f2>"]
+	node65:f2 -> node92:f1
+	node93 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node66:f0 -> node93:f1
+	node94 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node66:f2 -> node94:f1
+	node95 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:74.0, OC:1
+                             |<f2>"]
+	node67:f0 -> node95:f1
+	node96 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node67:f2 -> node96:f1
+	node97 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['sunday', 'monday', 'sun', 'mon'], OC:2
+                             |<f2>"]
+	node68:f0 -> node97:f1
+	node98 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node68:f2 -> node98:f1
+	node99 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:98.0, OC:1
+                             |<f2>"]
+	node71:f0 -> node99:f1
+	node100 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node71:f2 -> node100:f1
+	node101 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node72:f0 -> node101:f1
+	node102 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node72:f2 -> node102:f1
+	node103 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:109.0, OC:1
+                             |<f2>"]
+	node74:f0 -> node103:f1
+	node104 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:115.0, OC:1
+                             |<f2>"]
+	node74:f2 -> node104:f1
+	node105 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:148.0, OC:1
+                             |<f2>"]
+	node75:f0 -> node105:f1
+	node106 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node75:f2 -> node106:f1
+	node107 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:178.0, OC:1
+                             |<f2>"]
+	node78:f0 -> node107:f1
+	node108 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node78:f2 -> node108:f1
+	node109 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:2.0, OC:1
+                             |<f2>"]
+	node79:f0 -> node109:f1
+	node110 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:11.0, OC:1
+                             |<f2>"]
+	node79:f2 -> node110:f1
+	node111 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:7.0, OC:1
+                             |<f2>"]
+	node80:f0 -> node111:f1
+	node112 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:9.0, OC:1
+                             |<f2>"]
+	node80:f2 -> node112:f1
+	node113 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:15.0, OC:1
+                             |<f2>"]
+	node81:f0 -> node113:f1
+	node114 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:15.0, OC:1
+                             |<f2>"]
+	node81:f2 -> node114:f1
+	node115 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node82:f0 -> node115:f1
+	node116 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:14.0, OC:1
+                             |<f2>"]
+	node82:f2 -> node116:f1
+	node117 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:18.0, OC:1
+                             |<f2>"]
+	node83:f0 -> node117:f1
+	node118 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node83:f2 -> node118:f1
+	node119 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:17.0, OC:1
+                             |<f2>"]
+	node84:f0 -> node119:f1
+	node120 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['friday', 'saturday', 'fri', 'sat'], OC:2
+                             |<f2>"]
+	node84:f2 -> node120:f1
+	node121 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:19.0, OC:1
+                             |<f2>"]
+	node85:f0 -> node121:f1
+	node122 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node85:f2 -> node122:f1
+	node123 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node86:f0 -> node123:f1
+	node124 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node86:f2 -> node124:f1
+	node125 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:38.0, OC:1
+                             |<f2>"]
+	node87:f0 -> node125:f1
+	node126 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node87:f2 -> node126:f1
+	node127 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node88:f0 -> node127:f1
+	node128 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node88:f2 -> node128:f1
+	node129 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:31.0, OC:1
+                             |<f2>"]
+	node89:f0 -> node129:f1
+	node130 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node89:f2 -> node130:f1
+	node131 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:44.0, OC:1
+                             |<f2>"]
+	node90:f0 -> node131:f1
+	node132 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:46.0, OC:1
+                             |<f2>"]
+	node90:f2 -> node132:f1
+	node133 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:58.0, OC:1
+                             |<f2>"]
+	node91:f0 -> node133:f1
+	node134 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:69.0, OC:1
+                             |<f2>"]
+	node91:f2 -> node134:f1
+	node135 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:59.0, OC:1
+                             |<f2>"]
+	node92:f0 -> node135:f1
+	node136 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node92:f2 -> node136:f1
+	node137 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node95:f0 -> node137:f1
+	node138 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node95:f2 -> node138:f1
+	node139 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node97:f0 -> node139:f1
+	node140 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node97:f2 -> node140:f1
+	node141 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:95.0, OC:1
+                             |<f2>"]
+	node99:f0 -> node141:f1
+	node142 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:99.0, OC:1
+                             |<f2>"]
+	node99:f2 -> node142:f1
+	node143 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node103:f0 -> node143:f1
+	node144 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node103:f2 -> node144:f1
+	node145 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node104:f0 -> node145:f1
+	node146 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:118.0, OC:1
+                             |<f2>"]
+	node104:f2 -> node146:f1
+	node147 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node105:f0 -> node147:f1
+	node148 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:149.0, OC:1
+                             |<f2>"]
+	node105:f2 -> node148:f1
+	node149 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:160.0, OC:1
+                             |<f2>"]
+	node107:f0 -> node149:f1
+	node150 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node107:f2 -> node150:f1
+	node151 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node108:f0 -> node151:f1
+	node152 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node108:f2 -> node152:f1
+	node153 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:1.0, OC:1
+                             |<f2>"]
+	node109:f0 -> node153:f1
+	node154 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node109:f2 -> node154:f1
+	node155 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:10.0, OC:1
+                             |<f2>"]
+	node110:f0 -> node155:f1
+	node156 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node110:f2 -> node156:f1
+	node157 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:1.0, OC:1
+                             |<f2>"]
+	node111:f0 -> node157:f1
+	node158 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node111:f2 -> node158:f1
+	node159 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node112:f0 -> node159:f1
+	node160 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node112:f2 -> node160:f1
+	node161 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node113:f0 -> node161:f1
+	node162 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node113:f2 -> node162:f1
+	node163 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:14.0, OC:1
+                             |<f2>"]
+	node114:f0 -> node163:f1
+	node164 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node114:f2 -> node164:f1
+	node165 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node115:f0 -> node165:f1
+	node166 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node115:f2 -> node166:f1
+	node167 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node116:f0 -> node167:f1
+	node168 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:15.0, OC:1
+                             |<f2>"]
+	node116:f2 -> node168:f1
+	node169 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node117:f0 -> node169:f1
+	node170 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['friday', 'saturday', 'fri', 'sat'], OC:2
+                             |<f2>"]
+	node117:f2 -> node170:f1
+	node171 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node118:f0 -> node171:f1
+	node172 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node118:f2 -> node172:f1
+	node173 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node119:f0 -> node173:f1
+	node174 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node119:f2 -> node174:f1
+	node175 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node120:f0 -> node175:f1
+	node176 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node120:f2 -> node176:f1
+	node177 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node121:f0 -> node177:f1
+	node178 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:20.0, OC:1
+                             |<f2>"]
+	node121:f2 -> node178:f1
+	node179 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node122:f0 -> node179:f1
+	node180 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node122:f2 -> node180:f1
+	node181 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:37.0, OC:1
+                             |<f2>"]
+	node125:f0 -> node181:f1
+	node182 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:39.0, OC:1
+                             |<f2>"]
+	node125:f2 -> node182:f1
+	node183 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node126:f0 -> node183:f1
+	node184 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node126:f2 -> node184:f1
+	node185 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:30.0, OC:1
+                             |<f2>"]
+	node129:f0 -> node185:f1
+	node186 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:32.0, OC:1
+                             |<f2>"]
+	node129:f2 -> node186:f1
+	node187 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node131:f0 -> node187:f1
+	node188 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node131:f2 -> node188:f1
+	node189 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node132:f0 -> node189:f1
+	node190 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node132:f2 -> node190:f1
+	node191 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:57.0, OC:1
+                             |<f2>"]
+	node133:f0 -> node191:f1
+	node192 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node133:f2 -> node192:f1
+	node193 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:65.0, OC:1
+                             |<f2>"]
+	node134:f0 -> node193:f1
+	node194 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node134:f2 -> node194:f1
+	node195 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:57.0, OC:1
+                             |<f2>"]
+	node135:f0 -> node195:f1
+	node196 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:64.0, OC:1
+                             |<f2>"]
+	node135:f2 -> node196:f1
+	node197 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node138:f0 -> node197:f1
+	node198 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node138:f2 -> node198:f1
+	node199 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node141:f0 -> node199:f1
+	node200 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node141:f2 -> node200:f1
+	node201 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node142:f0 -> node201:f1
+	node202 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node142:f2 -> node202:f1
+	node203 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node146:f0 -> node203:f1
+	node204 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node146:f2 -> node204:f1
+	node205 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node147:f0 -> node205:f1
+	node206 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:143.0, OC:1
+                             |<f2>"]
+	node147:f2 -> node206:f1
+	node207 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node148:f0 -> node207:f1
+	node208 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node148:f2 -> node208:f1
+	node209 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node149:f0 -> node209:f1
+	node210 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:166.0, OC:1
+                             |<f2>"]
+	node149:f2 -> node210:f1
+	node211 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node153:f0 -> node211:f1
+	node212 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node153:f2 -> node212:f1
+	node213 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:6.0, OC:1
+                             |<f2>"]
+	node154:f0 -> node213:f1
+	node214 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:4.0, OC:1
+                             |<f2>"]
+	node154:f2 -> node214:f1
+	node215 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node155:f0 -> node215:f1
+	node216 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node155:f2 -> node216:f1
+	node217 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node156:f0 -> node217:f1
+	node218 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node156:f2 -> node218:f1
+	node219 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:0.0, OC:1
+                             |<f2>"]
+	node157:f0 -> node219:f1
+	node220 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:2.0, OC:1
+                             |<f2>"]
+	node157:f2 -> node220:f1
+	node221 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node158:f0 -> node221:f1
+	node222 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node158:f2 -> node222:f1
+	node223 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node159:f0 -> node223:f1
+	node224 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node159:f2 -> node224:f1
+	node225 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node160:f0 -> node225:f1
+	node226 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node160:f2 -> node226:f1
+	node227 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node161:f0 -> node227:f1
+	node228 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node161:f2 -> node228:f1
+	node229 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node162:f0 -> node229:f1
+	node230 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node162:f2 -> node230:f1
+	node231 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:13.0, OC:1
+                             |<f2>"]
+	node163:f0 -> node231:f1
+	node232 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node163:f2 -> node232:f1
+	node233 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node164:f0 -> node233:f1
+	node234 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node164:f2 -> node234:f1
+	node235 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node167:f0 -> node235:f1
+	node236 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node167:f2 -> node236:f1
+	node237 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node168:f0 -> node237:f1
+	node238 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node168:f2 -> node238:f1
+	node239 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node169:f0 -> node239:f1
+	node240 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node169:f2 -> node240:f1
+	node241 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node170:f0 -> node241:f1
+	node242 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node170:f2 -> node242:f1
+	node243 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node173:f0 -> node243:f1
+	node244 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node173:f2 -> node244:f1
+	node245 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node174:f0 -> node245:f1
+	node246 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node174:f2 -> node246:f1
+	node247 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node177:f0 -> node247:f1
+	node248 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node177:f2 -> node248:f1
+	node249 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node178:f0 -> node249:f1
+	node250 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node178:f2 -> node250:f1
+	node251 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:34.0, OC:1
+                             |<f2>"]
+	node181:f0 -> node251:f1
+	node252 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node181:f2 -> node252:f1
+	node253 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node182:f0 -> node253:f1
+	node254 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['friday', 'saturday', 'fri', 'sat'], OC:2
+                             |<f2>"]
+	node182:f2 -> node254:f1
+	node255 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node185:f0 -> node255:f1
+	node256 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node185:f2 -> node256:f1
+	node257 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node186:f0 -> node257:f1
+	node258 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node186:f2 -> node258:f1
+	node259 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node187:f0 -> node259:f1
+	node260 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node187:f2 -> node260:f1
+	node261 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node190:f0 -> node261:f1
+	node262 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node190:f2 -> node262:f1
+	node263 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:51.0, OC:1
+                             |<f2>"]
+	node191:f0 -> node263:f1
+	node264 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node191:f2 -> node264:f1
+	node265 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node192:f0 -> node265:f1
+	node266 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node192:f2 -> node266:f1
+	node267 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:64.0, OC:1
+                             |<f2>"]
+	node193:f0 -> node267:f1
+	node268 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node193:f2 -> node268:f1
+	node269 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node194:f0 -> node269:f1
+	node270 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node194:f2 -> node270:f1
+	node271 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:56.0, OC:1
+                             |<f2>"]
+	node195:f0 -> node271:f1
+	node272 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:58.0, OC:1
+                             |<f2>"]
+	node195:f2 -> node272:f1
+	node273 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:62.0, OC:1
+                             |<f2>"]
+	node196:f0 -> node273:f1
+	node274 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:65.0, OC:1
+                             |<f2>"]
+	node196:f2 -> node274:f1
+	node275 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:88.0, OC:1
+                             |<f2>"]
+	node199:f0 -> node275:f1
+	node276 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:92.0, OC:1
+                             |<f2>"]
+	node199:f2 -> node276:f1
+	node277 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node200:f0 -> node277:f1
+	node278 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node200:f2 -> node278:f1
+	node279 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node202:f0 -> node279:f1
+	node280 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node202:f2 -> node280:f1
+	node281 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node203:f0 -> node281:f1
+	node282 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node203:f2 -> node282:f1
+	node283 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:135.0, OC:1
+                             |<f2>"]
+	node206:f0 -> node283:f1
+	node284 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node206:f2 -> node284:f1
+	node285 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node208:f0 -> node285:f1
+	node286 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node208:f2 -> node286:f1
+	node287 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node210:f0 -> node287:f1
+	node288 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node210:f2 -> node288:f1
+	node289 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:0.0, OC:1
+                             |<f2>"]
+	node211:f0 -> node289:f1
+	node290 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:0.0, OC:1
+                             |<f2>"]
+	node211:f2 -> node290:f1
+	node291 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['friday', 'saturday', 'fri', 'sat'], OC:2
+                             |<f2>"]
+	node212:f0 -> node291:f1
+	node292 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node212:f2 -> node292:f1
+	node293 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:5.0, OC:1
+                             |<f2>"]
+	node213:f0 -> node293:f1
+	node294 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:7.0, OC:1
+                             |<f2>"]
+	node213:f2 -> node294:f1
+	node295 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node214:f0 -> node295:f1
+	node296 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node214:f2 -> node296:f1
+	node297 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node215:f0 -> node297:f1
+	node298 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:9.0, OC:1
+                             |<f2>"]
+	node215:f2 -> node298:f1
+	node299 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node216:f0 -> node299:f1
+	node300 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node216:f2 -> node300:f1
+	node301 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node217:f0 -> node301:f1
+	node302 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node217:f2 -> node302:f1
+	node303 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node218:f0 -> node303:f1
+	node304 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node218:f2 -> node304:f1
+	node305 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node219:f0 -> node305:f1
+	node306 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node219:f2 -> node306:f1
+	node307 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node220:f0 -> node307:f1
+	node308 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:6.0, OC:1
+                             |<f2>"]
+	node220:f2 -> node308:f1
+	node309 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node231:f0 -> node309:f1
+	node310 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node231:f2 -> node310:f1
+	node311 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node232:f0 -> node311:f1
+	node312 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node232:f2 -> node312:f1
+	node313 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node237:f0 -> node313:f1
+	node314 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node237:f2 -> node314:f1
+	node315 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node238:f0 -> node315:f1
+	node316 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node238:f2 -> node316:f1
+	node317 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node249:f0 -> node317:f1
+	node318 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node249:f2 -> node318:f1
+	node319 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node250:f0 -> node319:f1
+	node320 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node250:f2 -> node320:f1
+	node321 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node251:f0 -> node321:f1
+	node322 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node251:f2 -> node322:f1
+	node323 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node252:f0 -> node323:f1
+	node324 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node252:f2 -> node324:f1
+	node325 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node253:f0 -> node325:f1
+	node326 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node253:f2 -> node326:f1
+	node327 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node254:f0 -> node327:f1
+	node328 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node254:f2 -> node328:f1
+	node329 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node255:f0 -> node329:f1
+	node330 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node255:f2 -> node330:f1
+	node331 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node256:f0 -> node331:f1
+	node332 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node256:f2 -> node332:f1
+	node333 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node257:f0 -> node333:f1
+	node334 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node257:f2 -> node334:f1
+	node335 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node258:f0 -> node335:f1
+	node336 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node258:f2 -> node336:f1
+	node337 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['friday', 'saturday', 'fri', 'sat'], OC:2
+                             |<f2>"]
+	node263:f0 -> node337:f1
+	node338 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:54.0, OC:1
+                             |<f2>"]
+	node263:f2 -> node338:f1
+	node339 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node267:f0 -> node339:f1
+	node340 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node267:f2 -> node340:f1
+	node341 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:55.0, OC:1
+                             |<f2>"]
+	node271:f0 -> node341:f1
+	node342 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node271:f2 -> node342:f1
+	node343 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node272:f0 -> node343:f1
+	node344 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node272:f2 -> node344:f1
+	node345 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:61.0, OC:1
+                             |<f2>"]
+	node273:f0 -> node345:f1
+	node346 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:63.0, OC:1
+                             |<f2>"]
+	node273:f2 -> node346:f1
+	node347 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node274:f0 -> node347:f1
+	node348 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:66.0, OC:1
+                             |<f2>"]
+	node274:f2 -> node348:f1
+	node349 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:87.0, OC:1
+                             |<f2>"]
+	node275:f0 -> node349:f1
+	node350 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node275:f2 -> node350:f1
+	node351 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:85.0, OC:1
+                             |<f2>"]
+	node276:f0 -> node351:f1
+	node352 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node276:f2 -> node352:f1
+	node353 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:128.0, OC:1
+                             |<f2>"]
+	node283:f0 -> node353:f1
+	node354 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:136.0, OC:1
+                             |<f2>"]
+	node283:f2 -> node354:f1
+	node355 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:171.0, OC:1
+                             |<f2>"]
+	node288:f0 -> node355:f1
+	node356 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node288:f2 -> node356:f1
+	node357 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node289:f0 -> node357:f1
+	node358 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['friday', 'saturday', 'fri', 'sat'], OC:2
+                             |<f2>"]
+	node289:f2 -> node358:f1
+	node359 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node290:f0 -> node359:f1
+	node360 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node290:f2 -> node360:f1
+	node361 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node291:f0 -> node361:f1
+	node362 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node291:f2 -> node362:f1
+	node363 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node292:f0 -> node363:f1
+	node364 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node292:f2 -> node364:f1
+	node365 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node293:f0 -> node365:f1
+	node366 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node293:f2 -> node366:f1
+	node367 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:7.0, OC:3
+                             |<f2>"]
+	node294:f0 -> node367:f1
+	node368 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node294:f2 -> node368:f1
+	node369 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node295:f0 -> node369:f1
+	node370 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node295:f2 -> node370:f1
+	node371 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node296:f0 -> node371:f1
+	node372 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node296:f2 -> node372:f1
+	node373 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node297:f0 -> node373:f1
+	node374 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node297:f2 -> node374:f1
+	node375 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node298:f0 -> node375:f1
+	node376 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node298:f2 -> node376:f1
+	node377 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node299:f0 -> node377:f1
+	node378 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node299:f2 -> node378:f1
+	node379 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node300:f0 -> node379:f1
+	node380 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node300:f2 -> node380:f1
+	node381 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node305:f0 -> node381:f1
+	node382 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node305:f2 -> node382:f1
+	node383 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node306:f0 -> node383:f1
+	node384 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node306:f2 -> node384:f1
+	node385 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node307:f0 -> node385:f1
+	node386 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node307:f2 -> node386:f1
+	node387 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node308:f0 -> node387:f1
+	node388 [label="<f0> |<f1> A:channel-id, AT:C, 
+                             V:6.0, OC:3
+                             |<f2>"]
+	node308:f2 -> node388:f1
+	node389 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node309:f0 -> node389:f1
+	node390 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node309:f2 -> node390:f1
+	node391 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node310:f0 -> node391:f1
+	node392 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node310:f2 -> node392:f1
+	node393 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node321:f0 -> node393:f1
+	node394 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node321:f2 -> node394:f1
+	node395 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node322:f0 -> node395:f1
+	node396 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node322:f2 -> node396:f1
+	node397 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node337:f0 -> node397:f1
+	node398 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node337:f2 -> node398:f1
+	node399 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node338:f0 -> node399:f1
+	node400 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:56.0, OC:1
+                             |<f2>"]
+	node338:f2 -> node400:f1
+	node401 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node340:f0 -> node401:f1
+	node402 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node340:f2 -> node402:f1
+	node403 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:48.0, OC:1
+                             |<f2>"]
+	node341:f0 -> node403:f1
+	node404 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node341:f2 -> node404:f1
+	node405 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node342:f0 -> node405:f1
+	node406 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node342:f2 -> node406:f1
+	node407 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node343:f0 -> node407:f1
+	node408 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node343:f2 -> node408:f1
+	node409 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node344:f0 -> node409:f1
+	node410 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node344:f2 -> node410:f1
+	node411 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node345:f0 -> node411:f1
+	node412 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node345:f2 -> node412:f1
+	node413 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node346:f0 -> node413:f1
+	node414 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node346:f2 -> node414:f1
+	node415 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node347:f0 -> node415:f1
+	node416 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node347:f2 -> node416:f1
+	node417 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node348:f0 -> node417:f1
+	node418 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node348:f2 -> node418:f1
+	node419 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:84.0, OC:1
+                             |<f2>"]
+	node349:f0 -> node419:f1
+	node420 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node349:f2 -> node420:f1
+	node421 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node350:f0 -> node421:f1
+	node422 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node350:f2 -> node422:f1
+	node423 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node351:f0 -> node423:f1
+	node424 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:89.0, OC:1
+                             |<f2>"]
+	node351:f2 -> node424:f1
+	node425 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node353:f0 -> node425:f1
+	node426 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:129.0, OC:1
+                             |<f2>"]
+	node353:f2 -> node426:f1
+	node427 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node354:f0 -> node427:f1
+	node428 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:140.0, OC:1
+                             |<f2>"]
+	node354:f2 -> node428:f1
+	node429 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node355:f0 -> node429:f1
+	node430 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:172.0, OC:1
+                             |<f2>"]
+	node355:f2 -> node430:f1
+	node431 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node357:f0 -> node431:f1
+	node432 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node357:f2 -> node432:f1
+	node433 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node358:f0 -> node433:f1
+	node434 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node358:f2 -> node434:f1
+	node435 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node359:f0 -> node435:f1
+	node436 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node359:f2 -> node436:f1
+	node437 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node360:f0 -> node437:f1
+	node438 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node360:f2 -> node438:f1
+	node439 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node365:f0 -> node439:f1
+	node440 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node365:f2 -> node440:f1
+	node441 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node366:f0 -> node441:f1
+	node442 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node366:f2 -> node442:f1
+	node443 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node367:f0 -> node443:f1
+	node444 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node367:f2 -> node444:f1
+	node445 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node368:f0 -> node445:f1
+	node446 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node368:f2 -> node446:f1
+	node447 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node375:f0 -> node447:f1
+	node448 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node375:f2 -> node448:f1
+	node449 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node376:f0 -> node449:f1
+	node450 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node376:f2 -> node450:f1
+	node451 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node387:f0 -> node451:f1
+	node452 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node387:f2 -> node452:f1
+	node453 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node388:f0 -> node453:f1
+	node454 [label="<f0> |<f1> CID: cluster_3
+                           |<f2>"]
+	node388:f2 -> node454:f1
+	node455 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node400:f0 -> node455:f1
+	node456 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node400:f2 -> node456:f1
+	node457 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node403:f0 -> node457:f1
+	node458 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:49.0, OC:1
+                             |<f2>"]
+	node403:f2 -> node458:f1
+	node459 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node404:f0 -> node459:f1
+	node460 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node404:f2 -> node460:f1
+	node461 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node411:f0 -> node461:f1
+	node462 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node411:f2 -> node462:f1
+	node463 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node413:f0 -> node463:f1
+	node464 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node413:f2 -> node464:f1
+	node465 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node418:f0 -> node465:f1
+	node466 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node418:f2 -> node466:f1
+	node467 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node419:f0 -> node467:f1
+	node468 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node419:f2 -> node468:f1
+	node469 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:86.0, OC:1
+                             |<f2>"]
+	node424:f0 -> node469:f1
+	node470 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:90.0, OC:1
+                             |<f2>"]
+	node424:f2 -> node470:f1
+	node471 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node426:f0 -> node471:f1
+	node472 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node426:f2 -> node472:f1
+	node473 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:137.0, OC:1
+                             |<f2>"]
+	node428:f0 -> node473:f1
+	node474 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node428:f2 -> node474:f1
+	node475 [label="<f0> |<f1> CID: cluster_1
+                           |<f2>"]
+	node430:f0 -> node475:f1
+	node476 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node430:f2 -> node476:f1
+	node477 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node455:f0 -> node477:f1
+	node478 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node455:f2 -> node478:f1
+	node479 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node456:f0 -> node479:f1
+	node480 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node456:f2 -> node480:f1
+	node481 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node457:f0 -> node481:f1
+	node482 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node457:f2 -> node482:f1
+	node483 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node458:f0 -> node483:f1
+	node484 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:52.0, OC:1
+                             |<f2>"]
+	node458:f2 -> node484:f1
+	node485 [label="<f0> |<f1> CID: cluster_0
+                           |<f2>"]
+	node468:f0 -> node485:f1
+	node486 [label="<f0> |<f1> CID: cluster_4
+                           |<f2>"]
+	node468:f2 -> node486:f1
+	node487 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node469:f0 -> node487:f1
+	node488 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:88.0, OC:1
+                             |<f2>"]
+	node469:f2 -> node488:f1
+	node489 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node470:f0 -> node489:f1
+	node490 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node470:f2 -> node490:f1
+	node491 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node473:f0 -> node491:f1
+	node492 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node473:f2 -> node492:f1
+	node493 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node483:f0 -> node493:f1
+	node494 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node483:f2 -> node494:f1
+	node495 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:51.0, OC:1
+                             |<f2>"]
+	node484:f0 -> node495:f1
+	node496 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:53.0, OC:1
+                             |<f2>"]
+	node484:f2 -> node496:f1
+	node497 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node488:f0 -> node497:f1
+	node498 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node488:f2 -> node498:f1
+	node499 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node490:f0 -> node499:f1
+	node500 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node490:f2 -> node500:f1
+	node501 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node492:f0 -> node501:f1
+	node502 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node492:f2 -> node502:f1
+	node503 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:50.0, OC:1
+                             |<f2>"]
+	node495:f0 -> node503:f1
+	node504 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node495:f2 -> node504:f1
+	node505 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node496:f0 -> node505:f1
+	node506 [label="<f0> |<f1> A:leaddays, AT:N, 
+                             V:54.0, OC:1
+                             |<f2>"]
+	node496:f2 -> node506:f1
+	node507 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node497:f0 -> node507:f1
+	node508 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node497:f2 -> node508:f1
+	node509 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['friday', 'saturday', 'fri', 'sat'], OC:2
+                             |<f2>"]
+	node503:f0 -> node509:f1
+	node510 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node503:f2 -> node510:f1
+	node511 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node504:f0 -> node511:f1
+	node512 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node504:f2 -> node512:f1
+	node513 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node505:f0 -> node513:f1
+	node514 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node505:f2 -> node514:f1
+	node515 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node506:f0 -> node515:f1
+	node516 [label="<f0> |<f1> A:arrivaldate-weekday, AT:C, 
+                             V:['tuesday', 'wednesday', 'thursday', 'tue', 'wed', 'thu'], OC:2
+                             |<f2>"]
+	node506:f2 -> node516:f1
+	node517 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node509:f0 -> node517:f1
+	node518 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node509:f2 -> node518:f1
+	node519 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node510:f0 -> node519:f1
+	node520 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node510:f2 -> node520:f1
+	node521 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node515:f0 -> node521:f1
+	node522 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node515:f2 -> node522:f1
+	node523 [label="<f0> |<f1> CID: cluster_5
+                           |<f2>"]
+	node516:f0 -> node523:f1
+	node524 [label="<f0> |<f1> CID: cluster_2
+                           |<f2>"]
+	node516:f2 -> node524:f1
+}

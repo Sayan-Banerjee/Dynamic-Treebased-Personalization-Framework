@@ -1,0 +1,64 @@
+digraph g {
+	node [height=.1 shape=record]
+	node0 [label="<f0> |<f1> ID: 0 Inst: 15000 Depth: 0|<f2>"]
+	node1 [label="<f0> |<f1> ID: 1 Inst: 13535 Depth: 1|<f2>"]
+	node0:f0 -> node1:f1
+	node2 [label="<f0> |<f1> ID: 30 Inst: 1465 Depth: 1|<f2>"]
+	node0:f2 -> node2:f1
+	node3 [label="<f0> |<f1> ID: 2 Inst: 12033 Depth: 2|<f2>"]
+	node1:f0 -> node3:f1
+	node4 [label="<f0> |<f1> ID: 27 Inst: 1502 Depth: 2|<f2>"]
+	node1:f2 -> node4:f1
+	node5 [label="<f0> |<f1> ID: 3 Inst: 10518 Depth: 3|<f2>"]
+	node3:f0 -> node5:f1
+	node6 [label="<f0> |<f1> ID: 24 Inst: 1515 Depth: 3|<f2>"]
+	node3:f2 -> node6:f1
+	node7 [label="<f0> |<f1> ID: 28 Inst: 1229 Depth: 3|<f2>"]
+	node4:f0 -> node7:f1
+	node8 [label="<f0> |<f1> ID: 29 Inst: 273 Depth: 3|<f2>"]
+	node4:f2 -> node8:f1
+	node9 [label="<f0> |<f1> ID: 4 Inst: 8998 Depth: 4|<f2>"]
+	node5:f0 -> node9:f1
+	node10 [label="<f0> |<f1> ID: 21 Inst: 1520 Depth: 4|<f2>"]
+	node5:f2 -> node10:f1
+	node11 [label="<f0> |<f1> ID: 25 Inst: 1251 Depth: 4|<f2>"]
+	node6:f0 -> node11:f1
+	node12 [label="<f0> |<f1> ID: 26 Inst: 264 Depth: 4|<f2>"]
+	node6:f2 -> node12:f1
+	node13 [label="<f0> |<f1> ID: 5 Inst: 7444 Depth: 5|<f2>"]
+	node9:f0 -> node13:f1
+	node14 [label="<f0> |<f1> ID: 18 Inst: 1554 Depth: 5|<f2>"]
+	node9:f2 -> node14:f1
+	node15 [label="<f0> |<f1> ID: 22 Inst: 1355 Depth: 5|<f2>"]
+	node10:f0 -> node15:f1
+	node16 [label="<f0> |<f1> ID: 23 Inst: 165 Depth: 5|<f2>"]
+	node10:f2 -> node16:f1
+	node17 [label="<f0> |<f1> ID: 6 Inst: 6048 Depth: 6|<f2>"]
+	node13:f0 -> node17:f1
+	node18 [label="<f0> |<f1> ID: 17 Inst: 1396 Depth: 6|<f2>"]
+	node13:f2 -> node18:f1
+	node19 [label="<f0> |<f1> ID: 19 Inst: 1266 Depth: 6|<f2>"]
+	node14:f0 -> node19:f1
+	node20 [label="<f0> |<f1> ID: 20 Inst: 288 Depth: 6|<f2>"]
+	node14:f2 -> node20:f1
+	node21 [label="<f0> |<f1> ID: 7 Inst: 4799 Depth: 7|<f2>"]
+	node17:f0 -> node21:f1
+	node22 [label="<f0> |<f1> ID: 16 Inst: 1249 Depth: 7|<f2>"]
+	node17:f2 -> node22:f1
+	node23 [label="<f0> |<f1> ID: 8 Inst: 4070 Depth: 8|<f2>"]
+	node21:f0 -> node23:f1
+	node24 [label="<f0> |<f1> ID: 15 Inst: 729 Depth: 8|<f2>"]
+	node21:f2 -> node24:f1
+	node25 [label="<f0> |<f1> ID: 9 Inst: 3227 Depth: 9|<f2>"]
+	node23:f0 -> node25:f1
+	node26 [label="<f0> |<f1> ID: 14 Inst: 843 Depth: 9|<f2>"]
+	node23:f2 -> node26:f1
+	node27 [label="<f0> |<f1> ID: 10 Inst: 2039 Depth: 10|<f2>"]
+	node25:f0 -> node27:f1
+	node28 [label="<f0> |<f1> ID: 13 Inst: 1188 Depth: 10|<f2>"]
+	node25:f2 -> node28:f1
+	node29 [label="<f0> |<f1> ID: 11 Inst: 1356 Depth: 11|<f2>"]
+	node27:f0 -> node29:f1
+	node30 [label="<f0> |<f1> ID: 12 Inst: 683 Depth: 11|<f2>"]
+	node27:f2 -> node30:f1
+}
